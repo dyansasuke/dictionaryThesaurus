@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*BODY SETTINGS*/
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0; 
+  padding: 0; 
+  background-image: url('background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  color: #67645f; 
+}
+
+/*NAVIGATION SETTINGS*/
+.top-nav {
+  background-color: rgb(23, 100, 124);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid rgb(59, 56, 56);
+}
+
+.top-nav nav ul {
+  list-style: none;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.top-nav nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.top-nav nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  position: relative; 
+  transition: color 0.3s; 
+}
+
+.top-nav img.logo {
+  margin-right: 300px; 
+  width: 150px;
+  margin-left: 60px;
+}
+
+
+.top-nav nav ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #fff; 
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: width 0.3s, background-color 0.3s; 
+}
+
+.top-nav nav ul li a:hover::after {
+  width: 100%;
+  background-color: rgb(255, 191, 0); 
+}
+
+
+/*HEADER SETTINGS*/
+header h1 {
+  font-size: 36px;
+  margin-top: 40px;
+}
+
+
+/*MAIN SETTINGS*/
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/*CONTAINER SETTINGS*/
+.welcome-container {
+  padding: 80px;
+  border-radius: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8); 
+  margin-top: 130px;
+}
+
+.welcome-container h2 {
+  color: #9b968a;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+/*FONTS SETTINGS*/
+h1{
+  color: #918a7e;
+}
